@@ -8,7 +8,7 @@ const Sign = (props) => {
     const handleSubmit = async(e) => {
         e.preventDefault();
         const {name, email, password} = credentials;
-        const response = await fetch("https://note-book-api.vercel.app/auth/createuser",{
+        const response = await fetch("https://note-book-api.vercel.app/api/auth/createuser",{
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
