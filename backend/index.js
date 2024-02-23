@@ -7,8 +7,7 @@ connectToMongo();
 const port = 5000;
 app.use(cors(
    {
-      origin:["https://note-book-frontend-pi.vercel.app
-"],
+      origin:[""],
       methods: ["POST","GET"],
       credentials: true
    }
